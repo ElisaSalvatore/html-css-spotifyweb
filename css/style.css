@@ -86,19 +86,15 @@ header {
     justify-content: start;
     align-items: center;
     width: 150px;
-}
-
-.sb-item.sb-library {
-    margin-bottom: 20px;
-}
-
-.sb-item, .sb-playlist {
-    padding-left: 20px;
-    margin-bottom: 10px;
+    height: 20px;
 }
 
 .sb-item > img { 
     width: 20px;
+}
+
+.sb-item.sb-library {
+    margin-bottom: 20px;
 }
 
 .sb-text {
@@ -109,6 +105,11 @@ header {
     font-size: 11px;
 }
 
+.sb-item, .sb-playlist {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
 .sb-playlist h3 {
     text-transform: uppercase;
     color: #fff;
@@ -117,12 +118,12 @@ header {
 .sb-playlist-plus,
 .sb-playlist-new {
     float: left;
-    height: 35px;
-    margin: 10px 0 ;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .sb-playlist-plus {
-    width: 35px;
+    width: 32px;
     background-color: #a3a3a3;
     font-size: 30px;
     font-weight: 500;
@@ -135,13 +136,17 @@ header {
 
 .sb-playlist-plus,
 .sb-playlist-new {
-    height: 35px;
-    line-height: 35px;
+    height: 30px;
+    line-height: 30px;
     text-align: center;
 }
 
 .sb-playlist-name {
-   margin: 15px 0;
+   margin-bottom: 15px;
+}
+
+.sb-playlist :nth-child(4) {
+    margin-top: 10px;
 }
 
 /* main */
