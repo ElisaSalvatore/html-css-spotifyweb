@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -89,37 +90,37 @@
                     <div class="album-played">
                         <h2>Recently played</h2>
                         <div class="album">
-                            <div class="album-cover metal"></div>
+                            <img class="album-image" src="./img/metal_lifting.jpg" alt="metal lifting">
                             <div class="album-name">Heavy Metal</div>
                             <div class="album-artist">Subtitle</div>
                         </div>
 
                         <div class="album">
-                            <div class="album-cover stranger-things"></div>
+                            <img class="album-image" src="./img/stranger.jpeg" alt="stranger things">
                             <div class="album-name">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</div>
                             <div class="album-artist">Kyle Dixon & Michael Stein</div>
                         </div>
 
                         <div class="album">
-                            <div class="album-cover quiet"></div>
+                            <img class="album-image" src="./img/aquietplace.jpeg" alt="a quiet place">
                             <div class="album-name">A quiet place</div>
                             <div class="album-artist">Subtitle</div>
                         </div>
 
                         <div class="album">
-                            <div class="album-cover split"></div>
+                            <img class="album-image" src="./img/split.jpeg" alt="split">
                             <div class="album-name">Split</div>
                             <div class="album-artist">Subtitle</div>
                         </div>
 
                         <div class="album">
-                            <div class="album-cover cure"></div>
+                            <img class="album-image" src="./img/cure.jpeg" alt="a cure for wellness">
                             <div class="album-name">A cure for wellness</div>
                             <div class="album-artist">Subtitle</div>
                         </div>
 
                         <div class="album">
-                            <div class="album-cover sinister"></div>
+                            <img class="album-image" src="./img/sinister.jpeg" alt="sinister">
                             <div class="album-name">Sinister</div>
                             <div class="album-artist">Subtitle</div>
                         </div>
@@ -128,49 +129,85 @@
                     
                     <div class="album-created">
                         <h2>Creato per John Doe</h2>
-                        <div class="sb-text created-text">Più ascolti, più accurati saranno i suggerimenti.</div>
+                        <div class="sb-text sub-heading">Più ascolti, più accurati saranno i suggerimenti.</div>
 
                         <div class="album">
-                            <div class="album-cover radar"></div>
+                            <img class="album-image" src="./img/radar.jpeg" alt="redar">
                             <div class="album-name">Release Radar</div>
                         </div>
 
                         <div class="album">
-                            <div class="album-cover daily-mix"></div>
+                            <img class="album-image" src="./img/mixdaily.jpeg" alt="daily mix one">
                             <div class="album-name">Daily Mix 1</div>
                         </div>
                     </div>
 
                     <div class="album-popular-artists">
                         <h2>Artisti più popolari</h2>
-                        <div class="sb-text created-text">Più ascolti, più accurati saranno i suggerimenti.</div>
+                        <div class="sb-text sub-heading">Più ascolti, più accurati saranno i suggerimenti.</div>
 
                         <div class="album">
-                            <div class="album-cover lana-del-ray"></div>
-                            <div class="album-name">Lana Del Ray</div>
+                            <img class="album-image rounded" src="./img/youg.jpeg" alt="lana del rey">
+                            <div class="album-name">Lana Del Rey</div>
                         </div>
 
                         <div class="album">
-                            <div class="album-cover ludovico-einaudi"></div>
+                            <img class="album-image rounded" src="./img/einaudi.jpeg" alt="ludovico einaudi">
                             <div class="album-name">Ludovico Einaudi</div>
                         </div>
-
-                    </div>
-                    
+                    </div>   
                 </div>    
             </main> 
     </div>
 
     <div class="player-control">
-        <div class="player-left"></div>
-        <div class="player-center">
-            <div class="player-sample"></div>
+        <div class="player-left">
+            <img src="./img/sinister.jpeg" alt="cover album sinister">
+
+            <div class="player-info">
+                <div class="player-title">Sinister</div>
+                <div class="player-name">Brano Nome</div>
+            </div>
+
+            <div class="player-icons">
+                <i class="far fa-heart"></i>
+                <i class="far fa-folder"></i>
+            </div>
         </div>
-        <div class="player-right"></div>
 
+        <div class="player-center">
+            <div class="player-sample">
+                <div class="controls-button">
+                    <i class="fas fa-random"></i>
+                    <i class="fas fa-step-forward rotate"></i>
+                    <i class="far fa-play-circle"></i>
+                    <i class="fas fa-step-forward"></i>
+                    <i class="fas fa-redo"></i>
+                </div>
+
+                <div class="player-progress">
+                    <div class="progress-minute">0:25</div>
+
+                    <div class="progress-grey">
+                        <div class="min-progress"></div>
+                    </div>
+
+                    <div class="progress-minute">4:35</div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="player-right">
+            <i class="fas fa-list"></i>
+            <i class="fas fa-desktop"></i>
+            <i class="fas fa-volume-up"></i>
+            
+            <span class="volume-grey">
+                <div class="min-progress"></div>
+            </span>
+        </div>
     </div>
-    
-    
-
 </body>
 </html>
